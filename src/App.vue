@@ -1,11 +1,25 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<nav class="navbar navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      
+      <h2>Acidosis Metabólica</h2>
+    </a>
+  </div>
+</nav>
+<br/>
+<br/>
+<br/>
+
+<div class="container">
+<HelloWorld/>
+</div>
+  
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
+import bootstrap from  'bootstrap'
 export default {
   name: 'App',
   components: {
@@ -23,4 +37,5 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+@import'~bootstrap/dist/css/bootstrap.css'
 </style>
